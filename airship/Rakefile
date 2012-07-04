@@ -8,7 +8,6 @@ Motion::Project::App.setup do |app|
 
   # Urban Airship framework setup
   app.libs += ['/usr/lib/libz.dylib', '/usr/lib/libsqlite3.dylib']
-  #app.vendor_project('vendor/UrbanAirship', :static, :headers_dir => './')
   app.vendor_project('vendor/UrbanAirship', :static, :products => ['libUAirship-1.2.2.a'], :headers_dir => 'Common')
   app.frameworks += [
     'Security', 
