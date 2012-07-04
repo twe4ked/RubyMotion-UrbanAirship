@@ -1,0 +1,25 @@
+# -*- coding: utf-8 -*-
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project'
+
+Motion::Project::App.setup do |app|
+  # Use `rake config' to see complete project settings.
+  app.name = 'airship'
+
+  # Urban Airship framework setup
+  app.libs += ['/usr/lib/libz.dylib', '/usr/lib/libsqlite3.dylib']
+  app.vendor_project('vendor/UrbanAirship', :static, :headers_dir => './')
+  app.frameworks += [
+    'Security', 
+    'CFNetwork', 
+    'MobileCoreServices', 
+    'SystemConfiguration', 
+    'CoreTelephony', 
+    'StoreKit', 
+    'CoreLocation', 
+    'MessageUI', 
+    'AudioToolbox', 
+    'MapKit'
+  ]
+  
+end
