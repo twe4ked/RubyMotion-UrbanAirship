@@ -17,4 +17,4 @@ Official GitHub repo:  https://github.com/urbanairship/ios-library
 
 Discussion:  https://groups.google.com/forum/?fromgroups#!topic/rubymotion/mmgRtdtzdOA
 
-Many thanks to [xbora](http://applabb.com/) and [D. Lennox](http://qstream.com/) for doing the research to get this working.  
+Many thanks to [xbora](http://applabb.com/) and [d. Lennox](http://qstream.com/) for doing the research to get this working.  
