@@ -22,4 +22,6 @@ Motion::Project::App.setup do |app|
     'MapKit'
   ]
 
+  app.entitlements['aps-environment'] = 'development'
+
 end
